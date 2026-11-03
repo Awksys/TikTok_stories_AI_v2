@@ -1,0 +1,20 @@
+# Versions installed on the reference PC, using Python 3.12.
+# The existing Python environment is not modified by creating this file.
+openai==1.101.0
+python-dotenv==1.0.1
+Pillow==11.1.0
+pydub==0.25.1
+numpy==2.4.6
+whisperx==3.4.2
+torch==2.6.0
+torchaudio==2.6.0
+ctranslate2==4.4.0
+faster-whisper==1.2.0
+transformers==4.55.4
+pyannote-audio==3.4.0
+selenium==4.48.0
+undetected-chromedriver==3.5.5
+chromedriver-autoinstaller==0.6.4
+SoundCard==0.4.6
+soundfile==0.14.0
+setuptools==75.9.1

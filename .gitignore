@@ -1,0 +1,64 @@
+# Secrets and local sessions
+.env
+.env.*
+!.env.example
+*.pkl
+*.pem
+*.key
+/Cookies/
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.deps/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Browser drivers are downloaded separately on each computer
+/[0-9][0-9][0-9]/
+*.exe
+*.dll
+
+# Generated media and temporary files
+/AI_Images/
+/Downloads/
+/resized/
+/Videos_clips/
+/upload_errors/
+/reports/
+/Outputs/*
+!/Outputs/.gitkeep
+/transcription_diagnostics/*
+!/transcription_diagnostics/README.md
+*.mp4
+*.wav
+*.mp3
+!/Sounds/*.mp3
+*.ass
+*.log
+*.tmp
+*.bak
+/temp_*
+/trimmed_audio.*
+/concat.txt
+/rounded_rect.png
+/shadow_rect.png
+/rect_shadow_combined.png
+
+# Keep the title artwork and its editable source, not reference captures
+/Illustrator/*
+!/Illustrator/Final/
+!/Illustrator/overlay.ai
+
+# Local editor, system, and setup files
+.idea/
+.vscode/
+.git-setup/
+.DS_Store
+Thumbs.db
+desktop.ini
